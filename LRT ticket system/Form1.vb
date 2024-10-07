@@ -3,22 +3,53 @@
 Public Class Form1
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Form2.Label10.Text = Me.ComboBox1.SelectedItem
-        Form2.Label11.Text = Me.ComboBox2.SelectedItem
-        Form2.Label12.Text = Me.NumericUpDown1.Value
-        Form2.Label1.Text = Format(Date.Now, "MMM dd , yyyy")
-        Form2.Label2.Text = Format(Date.Now, "Long Time")
-        Form2.Label14.Text = Me.ComboBox3.SelectedItem
-        Form2.Label15.Text = ""
 
+
+        Dim price As Double = 0
+        Dim discount As Double = 0
+
+        ' Determine the price based on ComboBox1 selection
+        Select Case ComboBox1.SelectedIndex
+            Case 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+                price = 20
+        End Select
+
+        ' Determine the discount based on ComboBox3 selection
+        Select Case ComboBox3.SelectedIndex
+            Case 0
+                discount = 0
+            Case 1
+                discount = 0.1
+            Case 2
+                discount = 0.15
+            Case 3
+                discount = 0.2
+            Case 4
+                discount = 0.5
+        End Select
+
+        ' Calculate total after discount
+        Dim total As Double = price * (1 - discount)
+
+        ' Pass values to Form2
+        Form2.Label10.Text = Me.ComboBox1.SelectedItem?.ToString()
+        Form2.Label11.Text = Me.ComboBox2.SelectedItem?.ToString()
+        Form2.Label12.Text = Me.NumericUpDown1.Value.ToString()
+        Form2.Label1.Text = Format(Date.Now, "MMM dd, yyyy")
+        Form2.Label2.Text = Format(Date.Now, "Long Time")
+        Form2.Label14.Text = Me.ComboBox3.SelectedItem?.ToString()
+        Form2.Label13.Text = price
+        Form2.Label15.Text = total.ToString("C") ' Display total in currency format
 
         Me.Hide()
         Form2.Show()
-
-
-
-
     End Sub
+
+
+
+
+
+
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Timer1.Start()
@@ -36,30 +67,20 @@ Public Class Form1
 
     Private Sub ComboBox3_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox3.SelectedIndexChanged
         Dim discount As Double
+        Select Case ComboBox3.SelectedIndex
+            Case 0
+                discount = 0
+            Case 1
+                discount = 0.1
+            Case 2
+                discount = 0.15
+            Case 3
+                discount = 0.2
+            Case 4
+                discount = 0.5
 
+        End Select
 
-        If ComboBox3.SelectedIndex = 0 Then
-
-        End If
-        'COV
-        If ComboBox3.SelectedIndex = 1 Then
-            discount = 0.1
-        End If
-        'Student 
-        If ComboBox3.SelectedIndex = 2 Then
-            discount = 0.15
-        End If
-
-        'Senior citizen
-        If ComboBox3.SelectedIndex = 3 Then
-
-            discount = 0.2
-        End If
-
-        'Children
-        If ComboBox3.SelectedIndex = 3 Then
-            discount = 0.5
-        End If
     End Sub
 
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged

@@ -22,5 +22,10 @@ LRT ticket system
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:LRT_ticket_system.My.Resources.Resources.light_rail_transit_on_day_background_vector_31819634">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>

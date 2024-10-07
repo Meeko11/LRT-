@@ -11,3 +11,16 @@ C:\Users\CL2 PC34\Desktop\Miko Eunhel _2D\LRT ticket system\obj\Debug\LRT ticket
 C:\Users\CL2 PC34\Desktop\Miko Eunhel _2D\LRT ticket system\obj\Debug\LRT ticket system.xml
 C:\Users\CL2 PC34\Desktop\Miko Eunhel _2D\LRT ticket system\obj\Debug\LRT ticket system.pdb
 C:\Users\CL2 PC34\Desktop\Miko Eunhel _2D\LRT ticket system\obj\Debug\LRT_ticket_system.Form2.resources
+C:\Users\mikoe\OneDrive\Desktop\LRT--main\LRT ticket system\obj\Debug\LRT ticket system.vbproj.AssemblyReference.cache
+C:\Users\mikoe\OneDrive\Desktop\LRT--main\LRT ticket system\obj\Debug\LRT_ticket_system.Form1.resources
+C:\Users\mikoe\OneDrive\Desktop\LRT--main\LRT ticket system\obj\Debug\LRT_ticket_system.Form2.resources
+C:\Users\mikoe\OneDrive\Desktop\LRT--main\LRT ticket system\obj\Debug\LRT_ticket_system.Resources.resources
+C:\Users\mikoe\OneDrive\Desktop\LRT--main\LRT ticket system\obj\Debug\LRT ticket system.vbproj.GenerateResource.cache
+C:\Users\mikoe\OneDrive\Desktop\LRT--main\LRT ticket system\obj\Debug\LRT ticket system.vbproj.CoreCompileInputs.cache
+C:\Users\mikoe\OneDrive\Desktop\LRT--main\LRT ticket system\obj\Debug\LRT ticket system.exe
+C:\Users\mikoe\OneDrive\Desktop\LRT--main\LRT ticket system\obj\Debug\LRT ticket system.xml
+C:\Users\mikoe\OneDrive\Desktop\LRT--main\LRT ticket system\obj\Debug\LRT ticket system.pdb
+C:\Users\mikoe\OneDrive\Desktop\LRT--main\LRT ticket system\bin\Debug\LRT ticket system.exe.config
+C:\Users\mikoe\OneDrive\Desktop\LRT--main\LRT ticket system\bin\Debug\LRT ticket system.exe
+C:\Users\mikoe\OneDrive\Desktop\LRT--main\LRT ticket system\bin\Debug\LRT ticket system.pdb
+C:\Users\mikoe\OneDrive\Desktop\LRT--main\LRT ticket system\bin\Debug\LRT ticket system.xml
